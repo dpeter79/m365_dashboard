@@ -272,3 +272,56 @@
   const char l_t[] PROGMEM = {"T"};
   
   #endif
+
+#ifdef LANG_HU
+  #define defaultFont System5x7mod
+
+  const char noBUS1[] PROGMEM = {"BUS nincs"};
+  const char noBUS2[] PROGMEM = {"kapcsolódva!"};
+  const char noBUS3[] PROGMEM = {"Nincs megjeleníthető"};
+  const char noBUS4[] PROGMEM = {"adat!"};
+
+  const char confScr1[] PROGMEM = {"Nagy sebességmérő: "};
+  const char confScr2[] PROGMEM = {"Nagy seb.mér.: "};
+  const char confScr2a[] PROGMEM = {"  SEBESSÉG"};
+  const char confScr2b[] PROGMEM = {"AKTUÁLIS"};
+  const char confScr3[] PROGMEM = {"Akku figyelmeztetés: "};
+  const char confScr4[] PROGMEM = {"Nagy akku figy.: "};
+  const char confScr5[] PROGMEM = {"Akku info"};
+  const char confScr6[] PROGMEM = {"M365 beállítás"};
+  const char confScr7[] PROGMEM = {"Mentés és kilépés"};
+
+  const char infoScr1[] PROGMEM = {"Össz. táv"};
+  const char infoScr2[] PROGMEM = {"Bekapcsolt idő"};
+
+  const char battScr[] PROGMEM = {">>> Kilépéshez fékezz <<<"};
+
+  const char M365CfgScr1[] PROGMEM = {"Sebességtartó: "};
+  const char M365CfgScr2[] PROGMEM = {"Seb.tartó friss."};
+  const char M365CfgScr3[] PROGMEM = {"Hátsó lámpa be:  "};
+  const char M365CfgScr4[] PROGMEM = {"Hátsó lámpa friss."};
+  const char M365CfgScr5[] PROGMEM = {"KERS:        "};
+  const char M365CfgScr6[] PROGMEM = {"KERS friss."};
+  const char M365CfgScr8[] PROGMEM = {"Kilépés"};
+  const char M365CfgScr7[] PROGMEM = {"Kerékméret:     "};
+
+  const char l_85inch[] PROGMEM = {" 8,5\""};
+  const char l_10inch[] PROGMEM = {"  10\""};
+
+  const char l_Weak[] PROGMEM =   {"GYENGE"};
+  const char l_Medium[] PROGMEM = {"KÖZEP."};
+  const char l_Strong[] PROGMEM = {". ERŐS"};
+
+  const char l_Yes[] PROGMEM = {"IGEN"};
+  const char l_No[] PROGMEM =  {" NEM"};
+  const char l_On[] PROGMEM =  {" BE"};
+  const char l_Off[] PROGMEM = {" KI"};
+
+  const char l_km[] PROGMEM = {"km"};
+  const char l_kmh[] PROGMEM = {"km/h"};
+  const char l_mah[] PROGMEM = {"mAh"};
+  const char l_v[] PROGMEM = {"V"};
+  const char l_a[] PROGMEM = {"A"};
+  const char l_c[] PROGMEM = {"C"};
+  const char l_t[] PROGMEM = {"T"};
+  #endif
